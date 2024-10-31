@@ -1,0 +1,45 @@
+form {
+    margin: 0;
+}
+
+input[type=number][size="64"] {
+    width: 31em;
+}
+
+tr.sub_option th {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+tr.sub_option td {
+    padding-top: 4px;
+    padding-bottom: 20px;
+}
+
+tr.sub_option th span,
+tr.sub_option td span {
+    padding: 0 0 0 32px;
+}
+
+.option_notice {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin: 16px 0 0;
+    padding: 1px 12px;
+    max-width: 39rem;
+}
+
+.option_notice.danger {
+    border-left-color: #dc3232;
+}
+
+.option_notice.warning {
+    border-left-color: #ffb900;
+}
+
+.option_notice p {
+    margin: 0.5em 0;
+    padding: 2px;
+}
